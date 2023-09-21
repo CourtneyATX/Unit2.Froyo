@@ -7,14 +7,22 @@ const userInputFlavors = prompt(
 
 // The user's input is split into an array of strings.
 
-const flavorsArray = userInputFlavors.split(" ,");
+const flavorsArray = userInputFlavors.split(",");
 console.log(flavorsArray);
 
 // A loop is used to iterate through the array
 
-
+for( let i=0; i < flavorsArray.length; i++){
+    console.log(flavorsArray[i])
+};
 
 //An object is used to keep count of how many orders of each flavor.
+
+
+
+
+
+
 
 //program correctly counts the number of each flavor
 
